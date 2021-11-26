@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using DI_LC.Services;
+﻿using DI_LC.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DI_LC.Controllers
@@ -33,14 +29,14 @@ namespace DI_LC.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.message1 = "First Instance " + _transientService1.GetID().ToString();
-            ViewBag.message2 = "Second Instance " + _transientService2.GetID().ToString();
+            ViewBag.message1 = "First Instance " + _transientService1.GetID();
+            ViewBag.message2 = "Second Instance " + _transientService2.GetID();
 
-            ViewBag.message3 = "First Instance " + _scopedService1.GetID().ToString();
-            ViewBag.message4 = "Second Instance " + _scopedService2.GetID().ToString();
+            ViewBag.message3 = "First Instance " + _scopedService1.GetID();
+            ViewBag.message4 = "Second Instance " + _scopedService2.GetID();
 
-            ViewBag.message6 = "First Instance " + _singletonService1.GetID().ToString();
-            ViewBag.message7 = "Second Instance " + _singletonService2.GetID().ToString();
+            ViewBag.message6 = "First Instance " + _singletonService1.GetID();
+            ViewBag.message7 = "Second Instance " + _singletonService2.GetID();
 
             return View();
         }

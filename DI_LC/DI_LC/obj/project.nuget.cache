@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ysdCjZDMCFJOVxVLVSHcIdjgWoxZ/9hTpnm2VhF1dYpvXkXBSVfYAAHFqaLSoLZNjYXmdbBNEHiNwI8RUWRXCw==",
+  "dgSpecHash": "I/QPVcldtb49GrugcABsS/eCbOaHN3PLea3/fAzm1DGHjSLk/aq38F5AHo/7k5sGGG6X6le2YOQeJKxQtDCa4g==",
   "success": true,
-  "projectFilePath": "E:\\dotnet\\DI_life_cycle\\DI_LC\\DI_LC\\DI_LC.csproj",
+  "projectFilePath": "C:\\Users\\nguyen.nh\\Desktop\\DI_Lifetime_dotnet_Core\\DI_LC\\DI_LC\\DI_LC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguyen.nh\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\nguyen.nh\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
